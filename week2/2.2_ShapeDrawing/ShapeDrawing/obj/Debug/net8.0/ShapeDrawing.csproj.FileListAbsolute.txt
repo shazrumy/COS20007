@@ -1,0 +1,15 @@
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.AssemblyInfoInputs.cache
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.AssemblyInfo.cs
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.csproj.CoreCompileInputs.cache
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.sourcelink.json
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/bin/Debug/net8.0/ShapeDrawing
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/bin/Debug/net8.0/ShapeDrawing.deps.json
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/bin/Debug/net8.0/ShapeDrawing.runtimeconfig.json
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/bin/Debug/net8.0/ShapeDrawing.dll
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/bin/Debug/net8.0/ShapeDrawing.pdb
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.dll
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/refint/ShapeDrawing.dll
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.pdb
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ShapeDrawing.genruntimeconfig.cache
+/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/Debug/net8.0/ref/ShapeDrawing.dll
