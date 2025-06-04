@@ -377,6 +377,16 @@
             "related": ".xml"
           }
         }
+      },
+      "IdentifiableObject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/IdentifiableObject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IdentifiableObject.dll": {}
+        }
       }
     }
   },
@@ -970,10 +980,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "IdentifiableObject/1.0.0": {
+      "type": "project",
+      "path": "../IdentifiableObject/IdentifiableObject.csproj",
+      "msbuildProject": "../IdentifiableObject/IdentifiableObject.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "IdentifiableObject >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
@@ -1005,7 +1021,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj": {
+              "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
