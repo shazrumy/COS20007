@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shakilahazrumy/COS20007-3/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj": {}
+    "/Users/shakilahazrumy/COS20007-4/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj": {}
   },
   "projects": {
-    "/Users/shakilahazrumy/COS20007-3/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj": {
+    "/Users/shakilahazrumy/COS20007-4/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shakilahazrumy/COS20007-3/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj",
+        "projectUniqueName": "/Users/shakilahazrumy/COS20007-4/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj",
         "projectName": "SwinAdventure",
-        "projectPath": "/Users/shakilahazrumy/COS20007-3/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj",
+        "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj",
         "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-        "outputPath": "/Users/shakilahazrumy/COS20007-3/week3/SwinAdventure_3.2/SwinAdventure/obj/",
+        "outputPath": "/Users/shakilahazrumy/COS20007-4/week3/SwinAdventure_3.2/SwinAdventure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"

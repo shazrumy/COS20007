@@ -377,6 +377,16 @@
             "related": ".xml"
           }
         }
+      },
+      "SwinAdventure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SwinAdventure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SwinAdventure.dll": {}
+        }
       }
     }
   },
@@ -970,6 +980,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SwinAdventure/1.0.0": {
+      "type": "project",
+      "path": "../SwinAdventure/SwinAdventure.csproj",
+      "msbuildProject": "../SwinAdventure/SwinAdventure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -978,6 +993,7 @@
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
       "NUnit3TestAdapter >= 4.5.0",
+      "SwinAdventure >= 1.0.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -1005,7 +1021,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/shakilahazrumy/COS20007-4/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj": {
+              "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

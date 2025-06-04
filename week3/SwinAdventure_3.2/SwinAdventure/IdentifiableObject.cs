@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace IdentifiableObject
+namespace SwinAdventure
 {
     // Object that can be identified by multiple string identifiers
     public class IdentifiableObject
