@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shakilahazrumy/COS20007-3/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj",
+      "projectUniqueName": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj",
       "projectName": "IdentifiableObject",
-      "projectPath": "/Users/shakilahazrumy/COS20007-3/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj",
+      "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj",
       "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-      "outputPath": "/Users/shakilahazrumy/COS20007-3/week3/IdentifiableObject_3.1/IdentifiableObject/obj/",
+      "outputPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"
