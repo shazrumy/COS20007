@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/identifiableObjectTest/identifiableObjectTest.csproj": {}
+    "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj": {}
   },
   "projects": {
-    "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/identifiableObjectTest/identifiableObjectTest.csproj": {
+    "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/identifiableObjectTest/identifiableObjectTest.csproj",
-        "projectName": "identifiableObjectTest",
-        "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/identifiableObjectTest/identifiableObjectTest.csproj",
+        "projectUniqueName": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj",
+        "projectName": "IdentifiableObjectTest",
+        "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj",
         "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-        "outputPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/identifiableObjectTest/obj/",
+        "outputPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -40,8 +40,30 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
