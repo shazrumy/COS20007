@@ -7,45 +7,51 @@ namespace DrawingShape
     {
         public static void Main()
         {
-            // Create a new shape object
-            Shape myShape = new Shape();
-
-            // Create a window for drawing
-            new Window("Drawing Shape", 800, 600);
+            // Create a new drawing with default constructor (white background)
+            Drawing myDrawing = new Drawing();
             
-            // Main game loop - keeps running until window is closed
+            // Create the window
+            new Window("Shape Drawer - Multiple Shapes", 800, 600);
+            
+            // Main event loop
             do
             {
-                // Handle any events (like mouse clicks, key presses)
+                // Process events
                 SplashKit.ProcessEvents();
-                
-                // Clear the screen to prepare for new drawing
-                SplashKit.ClearScreen();
 
-                // If user clicks left mouse button, move shape to mouse position
-                if(SplashKit.MouseClicked(MouseButton.LeftButton))
+                // Check if user clicked left mouse button - add new shape
+                if (SplashKit.MouseClicked(MouseButton.LeftButton))
                 {
-                    myShape.X = (float)SplashKit.MouseX();
-                    myShape.Y = (float)SplashKit.MouseY();
+                    // Create new shape at mouse position
+                    Shape newShape = new Shape((int)SplashKit.MouseX(), (int)SplashKit.MouseY());
+                    myDrawing.AddShape(newShape);
                 }
 
-                // If mouse is hovering over the shape and spacebar is held down, change color
-                if(myShape.IsAt(SplashKit.MousePosition()))
+                // Check if user clicked right mouse button - select shapes
+                if (SplashKit.MouseClicked(MouseButton.RightButton))
                 {
-                    if(SplashKit.KeyDown(KeyCode.SpaceKey))
-                    {
-                        myShape.Color = Color.RandomRGB(255);
-                    }
+                    myDrawing.SelectShapesAt(SplashKit.MousePosition());
                 }
 
-                // Draw the shape on screen
-                myShape.Draw();
+                // Check if user pressed space bar - change background color
+                if (SplashKit.KeyTyped(KeyCode.SpaceKey))
+                {
+                    myDrawing.Background = SplashKit.RandomRGBColor(255);
+                }
 
-                // Update the display with everything that was drawn
+                // Check if user pressed delete or backspace - remove selected shapes
+                if (SplashKit.KeyTyped(KeyCode.DeleteKey) || SplashKit.KeyTyped(KeyCode.BackspaceKey))
+                {
+                    myDrawing.RemoveSelectedShapes();
+                }
+
+                // Draw the drawing (this clears screen and draws all shapes)
+                myDrawing.Draw();
+
+                // Refresh the screen
                 SplashKit.RefreshScreen();
-
             }
-            while (!SplashKit.WindowCloseRequested("Drawing Shape")); // Continue until user closes window
+            while (!SplashKit.WindowCloseRequested("Shape Drawer - Multiple Shapes"));
         }
     }
 }

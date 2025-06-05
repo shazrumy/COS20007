@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/ShapeDrawer.csproj": {}
+    "/Users/shakilahazrumy/COS20007-5/week5/ShapeDrawing/ShapeDrawer.csproj": {}
   },
   "projects": {
-    "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/ShapeDrawer.csproj": {
+    "/Users/shakilahazrumy/COS20007-5/week5/ShapeDrawing/ShapeDrawer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/ShapeDrawer.csproj",
+        "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week5/ShapeDrawing/ShapeDrawer.csproj",
         "projectName": "ShapeDrawer",
-        "projectPath": "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/ShapeDrawer.csproj",
+        "projectPath": "/Users/shakilahazrumy/COS20007-5/week5/ShapeDrawing/ShapeDrawer.csproj",
         "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-        "outputPath": "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/obj/",
+        "outputPath": "/Users/shakilahazrumy/COS20007-5/week5/ShapeDrawing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"
