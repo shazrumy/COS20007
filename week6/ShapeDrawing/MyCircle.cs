@@ -50,6 +50,7 @@ namespace ShapeDrawing
         {
             // Circle outline is a bigger black circle (different from Rectangle's approach)
             SplashKit.FillCircle(Color.Black, X, Y, Radius + 2);
+            // detailed by step 16
         }
 
         // POLYMORPHISM: Circle's unique way of checking if point is inside (different from Rectangle and Line)
