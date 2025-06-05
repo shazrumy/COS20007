@@ -5,51 +5,31 @@ using System.Linq;
 
 namespace SwinAdventure
 {
-    // Item class inherits from IdentifiableObject for game objects
-    public class Item : IdentifiableObject
+    // Item class represents objects the player can interact with
+    public class Item : GameObject
     {
-        // Private fields to store item properties
-        private string _description, _name;
-
-        // Constructor: creates item with identifiers, name, and description
-        public Item(string[] ids, string name, string desc) : base(ids)
+        // Constructor - creates an item with identifiers, name and description
+        public Item(string[] ids, string name, string desc) : base(ids, name, desc)
         {
-            _name = name;
-            _description = desc;
+            // Base class handles all the setup
         }
 
-        // Returns the item's name
-        public string Name
+        // Returns "a name (id)" format for items
+        public override string ShortDescription
         {
             get
             {
-                return _name;
+                return $"a {Name} ({FirstID})";
             }
         }
 
-        // Returns the full description of the item
+        // Property for backward compatibility with old tests
         public string LongDescription
         {
             get
             {
-                return _description;
+                return FullDescription;
             }
         }
-
-        // Returns brief description with name and first identifier
-        public string ShortDescription
-        {
-            get
-            {
-                return $"a {_name} ({FirstID})";  // ✅ Keep the "a"
-            }
-        }
-
-        // Inherited methods from IdentifiableObject:
-        // - AreYou(string id) : bool - checks if item matches identifier
-        // - FirstID : string - returns first identifier or empty string
-        // - AddIdentifier(string id) - adds new identifier to list
-        // - RemoveIdentifier(string id) - removes identifier from list
-        // - PrivilegeEscalation(string pin) - replaces first ID if PIN matches
     }
 }

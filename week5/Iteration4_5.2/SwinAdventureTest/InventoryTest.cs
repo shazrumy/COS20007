@@ -21,7 +21,7 @@ namespace SwinAdventure
 
         }
 
-        // Test that the Inventory can find items that were added to it
+        // Test that the Inventory has items that are put in it
         [Test]
         public void TestFindItem()
         {
@@ -30,7 +30,7 @@ namespace SwinAdventure
             Assert.IsTrue(i.HasItem(shovel.FirstID));
         }
 
-        // Test that the Inventory correctly reports when items are NOT present
+        // Test that the Inventory does not have items it does not contain
         [Test]
         public void TestNoFindItem()
         {
@@ -39,9 +39,9 @@ namespace SwinAdventure
             Assert.IsFalse(i.HasItem(sword.FirstID));
         }
 
-        // Test that Fetch returns the correct item and leaves it in the inventory
+        // Test that Fetch returns items it has, and the item remains in the inventory
         [Test]
-        public void TestFetchItems()
+        public void TestFetchItem()
         {
             Inventory i = new Inventory();
             i.Put(shovel);
@@ -51,9 +51,9 @@ namespace SwinAdventure
             Assert.IsTrue(i.HasItem(shovel.FirstID));
         }
 
-        // Test that Take removes the item from inventory and returns it
+        // Test that Take returns the item, and the item is no longer in the inventory
         [Test]
-        public void TestTakenItem()
+        public void TestTakeItem()
         {
             Inventory i = new Inventory();
             i.Put(shovel);
@@ -61,7 +61,7 @@ namespace SwinAdventure
             Assert.IsFalse(i.HasItem(shovel.FirstID));
         }
 
-        // Test that ItemList returns properly formatted string with tab-indented descriptions
+        // Test that ItemList returns a string containing multiple lines with tab-indented short descriptions
         [Test]
         public void TestItemList()
         {
