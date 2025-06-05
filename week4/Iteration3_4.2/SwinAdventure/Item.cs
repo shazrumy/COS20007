@@ -41,7 +41,7 @@ namespace SwinAdventure
         {
             get
             {
-                return $"a {_name} ({FirstID})";
+                return $"a {_name} ({FirstID})";  // ✅ Keep the "a"
             }
         }
 
