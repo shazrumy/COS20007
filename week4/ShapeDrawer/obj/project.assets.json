@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net7.0": []
   },
   "packageFolders": {
     "/Users/shakilahazrumy/.nuget/packages/": {}
@@ -13,24 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj",
-      "projectName": "SwinAdventure",
-      "projectPath": "/Users/shakilahazrumy/COS20007-5/week3/SwinAdventure_3.2/SwinAdventure/SwinAdventure.csproj",
+      "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/ShapeDrawer.csproj",
+      "projectName": "ShapeDrawer",
+      "projectPath": "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/ShapeDrawer.csproj",
       "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-      "outputPath": "/Users/shakilahazrumy/COS20007-5/week3/SwinAdventure_3.2/SwinAdventure/obj/",
+      "outputPath": "/Users/shakilahazrumy/COS20007-5/week4/ShapeDrawer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -46,8 +46,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/RuntimeIdentifierGraph.json"
       }
     }
   }
