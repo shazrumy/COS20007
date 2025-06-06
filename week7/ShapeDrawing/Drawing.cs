@@ -55,10 +55,9 @@ namespace ShapeDrawing
         // Save drawing to file
         public void Save(string filename)
         {
-            StreamWriter? writer = null;
+            StreamWriter writer = new StreamWriter(filename);
             try
             {
-                writer = new StreamWriter(filename);
                 writer.WriteColor(_background);
                 writer.WriteLine(ShapeCount);
 
@@ -70,17 +69,16 @@ namespace ShapeDrawing
             }
             finally
             {
-                writer?.Close();
+                writer.Close();
             }
         }
 
         // Load drawing from file
         public void Load(string filename)
         {
-            StreamReader? reader = null;
+            StreamReader reader = new StreamReader(filename);
             try
             {
-                reader = new StreamReader(filename);
                 Background = reader.ReadColor();
                 int count = reader.ReadInteger();
                 _shapes.Clear();
@@ -115,7 +113,7 @@ namespace ShapeDrawing
             }
             finally
             {
-                reader?.Close();
+                reader.Close();
             }
         }
 

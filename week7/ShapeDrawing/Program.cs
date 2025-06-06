@@ -59,6 +59,22 @@ namespace ShapeDrawing
                     Console.WriteLine($"Drawing saved to: {filepath}");
                 }
 
+                // O KEY: Load drawing from Desktop (Task 7.2 Step 16)
+                if (SplashKit.KeyTyped(KeyCode.OKey))
+                {
+                    try
+                    {
+                        string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                        string filepath = System.IO.Path.Combine(desktopPath, "TestDrawing.txt");
+                        myDrawing.Load(filepath);
+                        Console.WriteLine($"Drawing loaded from: {filepath}");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.Error.WriteLine("Error loading file: {0}", e.Message);
+                    }
+                }
+
                 // LEFT CLICK: Add a new shape where the user clicked
                 if (SplashKit.MouseClicked(MouseButton.LeftButton))
                 {
