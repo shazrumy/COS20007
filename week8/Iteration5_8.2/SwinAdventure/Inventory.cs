@@ -72,27 +72,19 @@ namespace SwinAdventure
         }
 
         // STEP 13: Modified ItemList property exactly as shown in PDF
+    // STEP 13: Modified ItemList property - OPTION 1 for tests
         public string ItemList
         {
             get
             {
                 string list = String.Empty;
-                //option 1. separate list elements by a new line
-                //foreach (Item itm in _items)
-                //{
-                //    list = list + "\t" + itm.ShortDescription + "\n";
-                //}
-
-                //option 2. separate list elements by commas
-                List<string> ItemDescriptionsList = new List<string>();
+                // Option 1: separate list elements by a new line
                 foreach (Item itm in _items)
                 {
-                    ItemDescriptionsList.Add(itm.ShortDescription);
+                    list = list + "\t" + itm.ShortDescription + "\n";
                 }
-                list = string.Join(",", ItemDescriptionsList);
-
                 return list;
             }
-        }
+        }        
     }
 }

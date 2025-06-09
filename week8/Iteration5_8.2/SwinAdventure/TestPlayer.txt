@@ -1,3 +1,5 @@
 James
 an explorer
-a A Silver Hat (silver),a A Torch (light)
+	a A Silver Hat (silver)
+	a A Torch (light)
+

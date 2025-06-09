@@ -1003,11 +1003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj",
+      "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj",
       "projectName": "IdentifiableObjectTest",
-      "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj",
+      "projectPath": "/Users/shakilahazrumy/COS20007-5/week3/IdentifiableObject_3.1/IdentifiableObjectTest/IdentifiableObjectTest.csproj",
       "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-      "outputPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObjectTest/obj/",
+      "outputPath": "/Users/shakilahazrumy/COS20007-5/week3/IdentifiableObject_3.1/IdentifiableObjectTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"
@@ -1022,8 +1022,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj": {
-              "projectPath": "/Users/shakilahazrumy/COS20007-4/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj"
+            "/Users/shakilahazrumy/COS20007-5/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj": {
+              "projectPath": "/Users/shakilahazrumy/COS20007-5/week3/IdentifiableObject_3.1/IdentifiableObject/IdentifiableObject.csproj"
             }
           }
         }

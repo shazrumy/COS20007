@@ -69,7 +69,7 @@ namespace SwinAdventureTest
             
             // Verify FirstID has been replaced with tutorial ID
             // Note: Replace "tutorial_id" with your actual tutorial ID
-            Assert.That(testItem.FirstID, Is.EqualTo("tutorial_id"));
+            Assert.That(testItem.FirstID, Is.EqualTo("EN310"));
             
             // Verify other identifiers still work
             Assert.That(testItem.AreYou("test"), Is.True);

@@ -49,9 +49,9 @@ namespace SwinAdventure
         public virtual void LoadFrom(StreamReader reader)
         {
             //read the GameObject's name from the file
-            _name = reader.ReadLine() ?? "";  // FIXED: Added null safety
+            _name = reader.ReadLine() ?? "";  
             //read the GameObject's description from the file as well
-            _description = reader.ReadLine() ?? "";  // FIXED: Added null safety
+            _description = reader.ReadLine() ?? "";  
         }
     }
 }

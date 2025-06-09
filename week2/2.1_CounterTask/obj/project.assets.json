@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shakilahazrumy/COS20007-3/week2/2.1_CounterTask/CounterTask.csproj",
+      "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week2/2.1_CounterTask/CounterTask.csproj",
       "projectName": "CounterTask",
-      "projectPath": "/Users/shakilahazrumy/COS20007-3/week2/2.1_CounterTask/CounterTask.csproj",
+      "projectPath": "/Users/shakilahazrumy/COS20007-5/week2/2.1_CounterTask/CounterTask.csproj",
       "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-      "outputPath": "/Users/shakilahazrumy/COS20007-3/week2/2.1_CounterTask/obj/",
+      "outputPath": "/Users/shakilahazrumy/COS20007-5/week2/2.1_CounterTask/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"

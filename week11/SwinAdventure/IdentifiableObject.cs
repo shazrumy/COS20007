@@ -58,7 +58,8 @@ namespace SwinAdventure
             {
                 if (_identifiers.Count > 0)
                 {
-                    _identifiers[0] = "104100247"; 
+                    _identifiers[0] = "EN310"; 
+                    // not sure of what my tutorial ID is so i used the room number
                 }
             }
         }

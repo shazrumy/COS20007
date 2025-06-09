@@ -2,7 +2,7 @@ using System;
 
 namespace SwinAdventure
 {
-    // GamePath class (renamed to avoid conflict with System.IO.Path) - Task 11.2
+    // GamePath class - Task 11.2
     public class GamePath : IdentifiableObject
     {
         private Location _destination;

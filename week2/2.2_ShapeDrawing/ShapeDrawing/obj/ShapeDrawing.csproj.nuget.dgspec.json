@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj": {}
+    "/Users/shakilahazrumy/COS20007-5/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj": {}
   },
   "projects": {
-    "/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj": {
+    "/Users/shakilahazrumy/COS20007-5/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj",
+        "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj",
         "projectName": "ShapeDrawing",
-        "projectPath": "/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj",
+        "projectPath": "/Users/shakilahazrumy/COS20007-5/week2/2.2_ShapeDrawing/ShapeDrawing/ShapeDrawing.csproj",
         "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-        "outputPath": "/Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/obj/",
+        "outputPath": "/Users/shakilahazrumy/COS20007-5/week2/2.2_ShapeDrawing/ShapeDrawing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"

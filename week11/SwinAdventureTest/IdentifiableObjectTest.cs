@@ -119,7 +119,7 @@ namespace SwinAdventureTest
             testObj.PrivilegeEscalation("0247");
             
             // Verify FirstID changed to tutorial ID
-            Assert.That(testObj.FirstID, Is.EqualTo("tutorial_id"));
+            Assert.That(testObj.FirstID, Is.EqualTo("EN310"));
             
             // Verify other identifiers still work
             Assert.That(testObj.AreYou("Shakila"), Is.True);

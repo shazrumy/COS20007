@@ -1,5 +1,5 @@
-Alice
-Brave explorer
+Shak
+Explorer
 	a A Silver Hat (silver)
 	a A Ruby (gem)
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventureTest/SwinAdventureTest.csproj": {}
+    "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventureTest/SwinAdventureTest.csproj": {}
   },
   "projects": {
-    "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventure/SwinAdventure.csproj": {
+    "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventure/SwinAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventure/SwinAdventure.csproj",
+        "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventure/SwinAdventure.csproj",
         "projectName": "SwinAdventure",
-        "projectPath": "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventure/SwinAdventure.csproj",
+        "projectPath": "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventure/SwinAdventure.csproj",
         "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-        "outputPath": "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventure/obj/",
+        "outputPath": "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventureTest/SwinAdventureTest.csproj": {
+    "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventureTest/SwinAdventureTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventureTest/SwinAdventureTest.csproj",
+        "projectUniqueName": "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventureTest/SwinAdventureTest.csproj",
         "projectName": "SwinAdventureTest",
-        "projectPath": "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventureTest/SwinAdventureTest.csproj",
+        "projectPath": "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventureTest/SwinAdventureTest.csproj",
         "packagesPath": "/Users/shakilahazrumy/.nuget/packages/",
-        "outputPath": "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventureTest/obj/",
+        "outputPath": "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventureTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shakilahazrumy/.nuget/NuGet/NuGet.Config"
@@ -84,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventure/SwinAdventure.csproj": {
-                "projectPath": "/Users/shakilahazrumy/COS20007-5/week9/9.1/SwinAdventure/SwinAdventure.csproj"
+              "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventure/SwinAdventure.csproj": {
+                "projectPath": "/Users/shakilahazrumy/COS20007-5/week9/9.2/SwinAdventure/SwinAdventure.csproj"
               }
             }
           }

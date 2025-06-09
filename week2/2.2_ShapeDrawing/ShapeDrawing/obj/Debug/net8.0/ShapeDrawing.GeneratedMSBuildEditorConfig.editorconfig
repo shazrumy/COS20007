@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShapeDrawing
-build_property.ProjectDir = /Users/shakilahazrumy/COS20007-3/week2/2.2_ShapeDrawing/ShapeDrawing/
+build_property.ProjectDir = /Users/shakilahazrumy/COS20007-5/week2/2.2_ShapeDrawing/ShapeDrawing/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

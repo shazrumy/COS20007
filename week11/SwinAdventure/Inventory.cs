@@ -23,13 +23,6 @@ namespace SwinAdventure
                     list = list + "\t" + itm.ShortDescription + "\n";
                 }
 
-                //option 2. separate list elements by commas
-                //List<string> ItemDescriptionList = new List<string>();
-                //foreach (Item itm in _items)
-                //{
-                //    ItemDescriptionList.Add(itm.ShortDescription);
-                //}
-                //list = string.Join(",", ItemDescriptionList);
 
                 return list;
             }

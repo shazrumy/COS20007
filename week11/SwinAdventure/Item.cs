@@ -8,7 +8,6 @@ namespace SwinAdventure
         {
         }
 
-        // ADDED: Override ShortDescription to return "a name (id)" format for items
         public override string ShortDescription
         {
             get
