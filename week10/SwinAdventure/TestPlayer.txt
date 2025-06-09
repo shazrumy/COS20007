@@ -1,0 +1,6 @@
+Alice
+A brave explorer
+	a A Silver Hat (silver)
+	a A Ruby (gem)
+	a Tools Bag (bag)
+
